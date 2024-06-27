@@ -2,6 +2,16 @@
 
 Reducción del tiempo de búsqueda de estacionamiento mediante un sistema inteligente con Arduino. Este sistema recopilará información en tiempo real sobre la disponibilidad de espacios de estacionamiento a través de sensores de movimiento. La información captada se transmitirá a través de un sistema de comunicación que puede ser Wifi o Bluetooth, facilitando a los conductores la localización de espacios libres de manera rápida y eficiente.
 
+Este proyecto lo que hace mediante un código configurar un sistema de estacionamiento inteligente usando un sensor ultrasónico y una conexión WiFi. La conexión WiFi en este sistema de estacionamiento inteligente, permite enviar los datos del sensor ultrasónico a una red, facilitando el monitoreo remoto de los espacios de estacionamiento. 
+
+En este sistema:
+
+* El servidor es el dispositivo con el sensor ultrasónico: Este dispositivo mide la distancia y aloja una página web para mostrar los datos. Actúa como servidor porque ofrece información a otros dispositivos a través de la red WiFi.
+
+* El cliente es cualquier dispositivo que se conecta al servidor para ver los datos: Por ejemplo, un teléfono, una tablet o una computadora que accede a la página web alojada por el servidor. Actúa como cliente porque solicita y recibe información del servidor.
+
+
+
 * Linea del tiempo:
 
 
@@ -22,6 +32,8 @@ Se entendió la comunicación servidor-cliente con ESP32. Se avanzó en los cód
 
 Semana 13 (6 de junio)
 Se revisaron trabajos de compañeros y se investigó la transmisión inalámbrica al computador. Se finalizó el código del sensor y se cambió ESP32 por Arduino Nano 33 IoT.
+
+
 
 * Fuentes y citas:
 
